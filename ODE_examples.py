@@ -64,7 +64,7 @@ def setParam(ode_name, use_preset_params):
             trigs = []
             gamma = 10**(-np.inf)
             lambda_mult = 2
-            scale_Theta = 0
+            scale_Theta = 2
             # set WSINDy params
             tau = 1
             tau_p = 16
@@ -79,7 +79,7 @@ def setParam(ode_name, use_preset_params):
             trigs = []
             gamma = 0
             lambda_mult = 4
-            scale_Theta = 0
+            scale_Theta = 2
             # set WSINDy params
             tau = 1
             tau_p = 16
@@ -94,7 +94,7 @@ def setParam(ode_name, use_preset_params):
             trigs = []
             gamma = 10**(-np.inf)
             lambda_mult = 8
-            scale_Theta = 0
+            scale_Theta = 2
             # set WSINDy params
             tau = 0
             tau_p = 16
